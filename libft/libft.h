@@ -1,9 +1,22 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   libft.h                                            :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: kbeceren <kbeceren@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2022/09/13 09:51:07 by kbeceren          #+#    #+#             */
+/*   Updated: 2022/09/13 10:25:20 by kbeceren         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
+
 # include <unistd.h>
 # include <stdlib.h>
 # include <stdio.h> 
+# include <stddef.h>
 
 char				*ft_strdup(const char *str);
 char				*ft_strjoin(char const *s1, char const *s2);

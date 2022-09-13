@@ -1,3 +1,14 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   childs.c                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: kbeceren <kbeceren@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2022/09/13 09:50:59 by kbeceren          #+#    #+#             */
+/*   Updated: 2022/09/13 13:06:05 by kbeceren         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "../includes/pipex.h"
 
@@ -61,6 +72,11 @@ void	second_child(t_pipex pipex, char **argv, char **envp)
 		child_free(&pipex);
 		message(ERR_CMD);
 		exit(127);
+	// Value 127 is returned by /bin/sh when the given command
+	//  is not found within your PATH system variable and it is
+	// not a built-in shell command. In other words, the system 
+	// doesn't understand your command, because it doesn't know
+	//  where to find the binary you're trying to call.
 	}
 	execve(pipex.cmd, pipex.cmd_args, envp);
 }

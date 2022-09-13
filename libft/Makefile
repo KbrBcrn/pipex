@@ -3,12 +3,13 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: bkrasnos <bkrasnos@student.42.fr>          +#+  +:+       +#+         #
+#    By: kbeceren <kbeceren@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2022/04/04 11:46:58 by bkrasnos          #+#    #+#              #
-#    Updated: 2022/05/11 13:11:00 by bkrasnos         ###   ########.fr        #
+#    Created: 2022/09/13 09:51:13 by kbeceren          #+#    #+#              #
+#    Updated: 2022/09/13 09:51:15 by kbeceren         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
+
 
 NAME		= libft.a
 
